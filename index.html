@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="./resources/css/styles.css" type="text/css" rel="stylesheet">
+    <link id="favicon" rel="icon" type="image/png" sizes="64x64"
+        href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAADzUlEQVR4Xu1bXUhTYRh+jilI9mMYEaWzogX92HR141lO6MagH1OEsomhBl6U0E0XReAGeRkEdhPkRMEsEkyyyEGFmvMim4wiIU1ymkQkLFOQNlqcrcUcO+c7srNvZ9t3Ls95z3nf7/ne9zvvL4fIVwU0uivILTAiv2gZW/PTkLkpE+kZGSL06rrt9XiwsriCHzN/MDOehbn3Q3A57wLoDReUC7uhw95iK/gLe7DzULa6VhWlNF8/uGF/MI2p0XoAzuDXQgE4Cd70BKWX0qNkpe7XB+97Ye8qB/BcEDQIgA68aSzpFx/cmgAIRwVNCACg5d+hqkWv7q1TWLrHNxyYGj0iAFCB2lZr0tk8CS/hTOhsqueg0b2E6c5xEn1SPu+6+oqDocYDY0NyH3xiuzfY5uVQfduNXfrNsnd4fgL49glYdku/IhjX+mxg+z5gx37Zn19FGGteXxw/OTT1LGJDzkaihC4nynwfUVd1CgYDj9xtOcRX5r4vYGTEDmtPP2xpB4G8w8R3/AS0eC0t/OJwzfab6OG5nDBr3Whubpa3gAhUZrMFls9byCDQ5OX1eDhcf+0jrapsphsvuu6RyIjPy2oaYdNUS9IpxsvUCFu+NK+AI0QCYH4CD8tzca7iNHGBJIJHvU9xvm9O/EygyeufsGQAHH2Y7bwpy+ZJAAhnQl5tC6A/E5lUcV63AL3g9YpfZADedMA31E5am+znnLEOOHYxMv1wB3zDlHjJ1gClhSqpA0ooASDFiwEQQIBsAkwDFLZLZgLsDGCHIPsLsN8g8wPoeILMEZL44zBPkHmCzBVmsUBcgiGa+QBF/gJKJ0QSLhhKUACETG9awmlASuQEpXZFlVlhmiYAQKm6wAlTIwYUqQtQBkAoi0VbhbJYLDBPZgMaHTFbTc4J0gYgytpge08/BrgDshYvzxGKBwDBfQutDgvVZrEiXhSVaHVqAFFxlSNgABCLo/E0AeU2WvRLTAOYBpD6A5gJKFwelxGgUDD9/yzYGUA8A5SuDkslRGhuveyssOIhqkSLjCoBiEOIShMH8hkQhxBVdQAoFqJOyWiUpLl6WVnhoEBRtK+uNUSliYG8VtlQicJD1OCz8FA1ihCVGgD+Vlm5zdLUpKLIyN8svdZ2eYryxZyVv13eUOOFsWFdzJmpkYF/YCLlR2aAStS2tqXu0JSgmlregaqWIjVqacxkChmbE3gUgje9Td3ByQDMqTQ6exbAs0BdYPVVCC1vRXH17qQ7E4RBydHuaUzaRYenQ6GohEZ3GXkFpdAULSX0+LxrPAuz4uPzfwGxLs9RMNO9ngAAAABJRU5ErkJggg==">
+    <title>Developyn | Trello</title>
+</head>
+
+<body>
+    <div class="bar header">
+        <div class="group left">
+            <button class="button header">
+                <img class="button-icon" src=".\resources\icons\grid.svg" />
+            </button>
+            <button class="button header">
+                <img class="button-icon" src=".\resources\icons\home.svg" />
+            </button>
+            <button class="button header">
+                <img class="button-icon" src=".\resources\icons\boards.svg" />
+                <p class="button-text bold">Boards</p>
+            </button>
+            <div class="search-bar">
+                <input class="search">
+                <button class="button header appended">
+                    <img class="button-icon" src=".\resources\icons\search.svg" />
+                </button>
+            </div>
+
+        </div>
+
+        <div class="group">
+            <img class="logo" src=".\resources\images\trellologo.png" />
+        </div>
+
+        <div class="group right">
+            <button class="button header">
+                <img class="button-icon" src=".\resources\icons\plus.svg" />
+            </button>
+            <button class="button header">
+                <img class="button-icon" src=".\resources\icons\info.svg" />
+            </button>
+            <button class="button alert">
+                <img class="button-icon" src=".\resources\icons\bell.svg" />
+            </button>
+            <button class="profile">
+                <p class="button-text bold">O</p>
+            </button>
+        </div>
+    </div>
+
+    <div class="bar secondary">
+        <div class="group">
+            <p class="title">Developyn</p>
+            <button class="button secondary">
+                <img class="button-icon" src=".\resources\icons\star.svg" />
+            </button>
+            <div class="center">
+                <p class="divider">|</p>
+                <p class="bar-text">Private Team</p>
+                <p class="divider">|</p>
+            </div>
+            <button class="button secondary">
+                <img class="button-icon" src=".\resources\icons\teams.svg" />
+                <p class="button-text">Team Visible</p>
+            </button>
+            <div class="center">
+                <p class="divider">|</p>
+                <button class="profile small line">
+                    <p class="profile-text bold">O</p>
+                </button>
+                <button class="profile small line">
+                    <p class="profile-text  bold">MM</p>
+                </button>
+                <button class="profile small line">
+                    <p class="profile-text  bold">AS</p>
+                </button>
+                <button class="profile small line">
+                    <p class="profile-text  bold">AR</p>
+                </button>
+                <button class="profile small line">
+                    <p class="profile-text  bold">L</p>
+                </button>
+                <button class="profile small end">
+                    <p class="bar-text">+13</p>
+                </button>
+            </div>
+
+            <button class="button secondary">
+                <p class="button-text">Invite</p>
+            </button>
+        </div>
+
+        <div class="group right">
+            <button class="button secondary">
+                <img class="button-icon" src=".\resources\icons\butler.svg" />
+                <p class="button-text">Butler (4 tips)</p>
+            </button>
+            <button class="button secondary">
+                <img class="button-icon" src=".\resources\icons\comment.svg" />
+                <p class="button-text">Hangout Chat Alerts</p>
+            </button>
+            <button class="button secondary">
+                <img class="button-icon" src=".\resources\icons\ellipsis.svg" />
+                <p class="button-text">Show Menu</p>
+            </button>
+        </div>
+    </div>
+
+    <div class="ticket-board">
+        <div class="list">
+            <div class="list-header">
+                <p class="list-header">Wish List</p>
+                <button class="button list-header">
+                    <img class="button-icon" src=".\resources\icons\grey-ellipsis.svg" />
+                </button>
+
+            </div>
+            <div class="ticket-body">
+                <div class="ticket" onclick="document.getElementById('modal').style.display='block';">
+                    <p class="ticket-title">[Employment Workshop]</p>
+                    <div class="ticket-footer">
+                        <div class="group right">
+                            <button class="profile small">
+                                <p class="profile-text bold">MM</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket">
+                    <p class="ticket-title">Plan Knowledge Sharing sessions</p>
+                    <div class="ticket-footer">
+                        <div class="group right">
+                            <button class="profile small">
+                                <p class="profile-text bold">JM</p>
+                            </button>
+                            <button class="profile small">
+                                <p class="profile-text bold">MM</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket">
+                    <p class="ticket-title">Software Services alignment</p>
+                </div>
+                <div class="ticket">
+                    <p class="ticket-title">Research Client-based EBS</p>
+                    <div class="ticket-footer">
+                        <div class="group right">
+                            <button class="profile small">
+                                <p class="profile-text bold">JM</p>
+                            </button>
+                            <button class="profile small">
+                                <p class="profile-text bold">MM</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket">
+                    <p class="ticket-title">Review of Virtual Landlines</p>
+                    <div class="ticket-footer">
+                        <div class="group right">
+                            <button class="profile small">
+                                <p class="profile-text bold">KB</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket">
+                    <p class="ticket-title">Developyn - Features pricing website</p>
+                </div>
+                <div class="ticket">
+                    <p class="ticket-title">Febuary 2020 Marketyn KPI/Sales Targets</p>
+                    <div class="ticket-footer">
+                        <div class="group right">
+                            <button class="profile small">
+                                <p class="profile-text bold">AR</p>
+                            </button>
+                            <button class="profile small">
+                                <p class="profile-text bold">JS</p>
+                            </button>
+                            <button class="profile small">
+                                <p class="profile-text bold">KB</p>
+                            </button>
+                            <button class="profile small">
+                                <p class="profile-text bold">MM</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket">
+                    <p class="ticket-title">Monthly Developyn Newsletter</p>
+                    <div class="ticket-footer">
+                        <div class="group right">
+                            <button class="profile small">
+                                <p class="profile-text bold">JS</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket">
+                    <p class="ticket-title">Merch episode 2: Developyn Boogaloo</p>
+                </div>
+                <div class="ticket">
+                    <p class="ticket-title">[Another video?]</p>
+                    <div class="ticket-footer">
+                        <div class="group right">
+                            <button class="profile small">
+                                <p class="profile-text bold">KB</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket">
+                    <p class="ticket-title">Video content</p>
+                    <div class="ticket-footer">
+                        <div class="group right">
+                            <button class="profile small">
+                                <p class="profile-text bold">KB</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket">
+                    <p class="ticket-title">After Covid Event - Charity fun run/ boxing match to raise mental awareness
+                    </p>
+                    <div class="ticket-footer">
+                        <div class="group right">
+                            <button class="profile small">
+                                <p class="profile-text bold">KB</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list-footer">
+                <button class="button list-footer-stretch">
+                    <img class="button-icon" src=".\resources\icons\grey-plus.svg" />
+                    <p class="list-footer">Add another card</p>
+                </button>
+                <button class="button list-footer">
+                    <img class="button-icon" src=".\resources\icons\template.svg" />
+                </button>
+            </div>
+        </div>
+
+        <div class="list">
+            <div class="list-header">
+                <p class="list-header">To Do</p>
+                <button class="button list-header">
+                    <img class="button-icon" src=".\resources\icons\grey-ellipsis.svg" />
+                </button>
+
+            </div>
+            <div class="ticket-body">
+
+                <div class="ticket">
+
+                    <p class="ticket-title">[Developyn.com] Change Pedmore Images on the SEO services page</p>
+                    <div class="ticket-footer">
+                        <div class="group right">
+                            <button class="profile small">
+                                <p class="profile-text bold">KB</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket">
+                    <p class="ticket-title">Front page redesign</p>
+                    <div class="ticket-footer">
+                        <div class="group right">
+                            <button class="profile small">
+                                <p class="profile-text bold">L</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket">
+                    <p class="ticket-title">[Training] First 5 Euler problems</p>
+                    <div class="ticket-footer">
+                        <div class="group right">
+                            <button class="profile small">
+                                <p class="profile-text bold">ME</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket">
+                    <p class="ticket-title">[Training] Re-create Bing from scratch</p>
+                    <div class="ticket-footer">
+                        <div class="group right">
+                            <button class="profile small">
+                                <p class="profile-text bold">ME</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket">
+                    <p class="ticket-title">[MGC] GitHub Auth change</p>
+                    <div class="ticket-footer">
+                        <div class="group right">
+                            <button class="profile small">
+                                <p class="profile-text bold">AS</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket">
+                    <p class="ticket-title">[Marketing] Research into newspaper advertisments</p>
+                    <div class="ticket-footer">
+                        <div class="group right">
+                            <button class="profile small">
+                                <p class="profile-text bold">KB</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket">
+                    <p class="ticket-title">Message businesses we want to be partners/ affiliates with</p>
+                    <div class="ticket-footer">
+                        <div class="group right">
+                            <button class="profile small">
+                                <p class="profile-text bold">KB</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket">
+                    <p class="ticket-title">[Developyn.com] Google Mobile Usability issues detected on developyn.com</p>
+                </div>
+                <div class="ticket">
+                    <p class="ticket-title">Plan of attack for posting poster</p>
+                    <div class="ticket-footer">
+                        <div class="group right">
+                            <button class="profile small">
+                                <p class="profile-text bold">KB</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket">
+                    <p class="ticket-title">Plan of attack for posting the poster</p>
+                    <div class="ticket-footer">
+                        <div class="group right">
+                            <button class="profile small">
+                                <p class="profile-text bold">KB</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket">
+
+                    <p class="ticket-title">[Developyn.com] Change Pedmore Images on the SEO services page</p>
+                    <div class="ticket-footer">
+                        <div class="group right">
+                            <button class="profile small">
+                                <p class="profile-text bold">KB</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket">
+                    <p class="ticket-title">Front page redesign</p>
+                    <div class="ticket-footer">
+                        <div class="group right">
+                            <button class="profile small">
+                                <p class="profile-text bold">L</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket">
+                    <p class="ticket-title">[Training] First 5 Euler problems</p>
+                    <div class="ticket-footer">
+                        <div class="group right">
+                            <button class="profile small">
+                                <p class="profile-text bold">ME</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket">
+                    <p class="ticket-title">[Training] Re-create Bing from scratch</p>
+                    <div class="ticket-footer">
+                        <div class="group right">
+                            <button class="profile small">
+                                <p class="profile-text bold">ME</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket">
+                    <p class="ticket-title">[MGC] GitHub Auth change</p>
+                    <div class="ticket-footer">
+                        <div class="group right">
+                            <button class="profile small">
+                                <p class="profile-text bold">AS</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket">
+                    <p class="ticket-title">[Marketing] Research into newspaper advertisments</p>
+                    <div class="ticket-footer">
+                        <div class="group right">
+                            <button class="profile small">
+                                <p class="profile-text bold">KB</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket">
+                    <p class="ticket-title">Message businesses we want to be partners/ affiliates with</p>
+                    <div class="ticket-footer">
+                        <div class="group right">
+                            <button class="profile small">
+                                <p class="profile-text bold">KB</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket">
+                    <p class="ticket-title">[Developyn.com] Google Mobile Usability issues detected on developyn.com</p>
+                </div>
+                <div class="ticket">
+                    <p class="ticket-title">Plan of attack for posting poster</p>
+                    <div class="ticket-footer">
+                        <div class="group right">
+                            <button class="profile small">
+                                <p class="profile-text bold">KB</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list-footer">
+                <button class="button list-footer-stretch">
+                    <img class="button-icon" src=".\resources\icons\grey-plus.svg" />
+                    <p class="list-footer">Add another card</p>
+                </button>
+                <button class="button list-footer">
+                    <img class="button-icon" src=".\resources\icons\template.svg" />
+                </button>
+            </div>
+        </div>
+
+        <div class="list">
+            <div class="list-header">
+                <p class="list-header">Priority</p>
+                <button class="button list-header">
+                    <img class="button-icon" src=".\resources\icons\grey-ellipsis.svg" />
+                </button>
+
+            </div>
+            <div class="ticket-body">
+
+                <div class="ticket">
+
+                    <p class="ticket-title">[Developyn.com] Change Pedmore Images on the SEO services page</p>
+                    <div class="ticket-footer">
+                        <div class="group right">
+                            <button class="profile small">
+                                <p class="profile-text bold">KB</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket">
+                    <p class="ticket-title">Front page redesign</p>
+                    <div class="ticket-footer">
+                        <div class="group right">
+                            <button class="profile small">
+                                <p class="profile-text bold">L</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket">
+                    <p class="ticket-title">[Training] First 5 Euler problems</p>
+                    <div class="ticket-footer">
+                        <div class="group right">
+                            <button class="profile small">
+                                <p class="profile-text bold">ME</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket">
+                    <p class="ticket-title">[Training] Re-create Bing from scratch</p>
+                    <div class="ticket-footer">
+                        <div class="group right">
+                            <button class="profile small">
+                                <p class="profile-text bold">ME</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket">
+                    <p class="ticket-title">[MGC] GitHub Auth change</p>
+                    <div class="ticket-footer">
+                        <div class="group right">
+                            <button class="profile small">
+                                <p class="profile-text bold">AS</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="list-footer">
+                    <button class="button list-footer-stretch">
+                        <img class="button-icon" src=".\resources\icons\grey-plus.svg" />
+                        <p class="list-footer">Add another card</p>
+                    </button>
+                    <button class="button list-footer">
+                        <img class="button-icon" src=".\resources\icons\template.svg" />
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="list">
+            <div class="list-header">
+                <p class="list-header">In progress</p>
+                <button class="button list-header">
+                    <img class="button-icon" src=".\resources\icons\grey-ellipsis.svg" />
+                </button>
+
+            </div>
+            <div class="ticket-body">
+                <div class="ticket">
+                    <p class="ticket-title">[Training] First 5 Euler problems</p>
+                    <div class="ticket-footer">
+                        <div class="group right">
+                            <button class="profile small">
+                                <p class="profile-text bold">ME</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket">
+                    <p class="ticket-title">[Training] Re-create Bing from scratch</p>
+                    <div class="ticket-footer">
+                        <div class="group right">
+                            <button class="profile small">
+                                <p class="profile-text bold">ME</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket">
+                    <p class="ticket-title">[MGC] GitHub Auth change</p>
+                    <div class="ticket-footer">
+                        <div class="group right">
+                            <button class="profile small">
+                                <p class="profile-text bold">AS</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list-footer">
+                <button class="button list-footer-stretch">
+                    <img class="button-icon" src=".\resources\icons\grey-plus.svg" />
+                    <p class="list-footer">Add another card</p>
+                </button>
+                <button class="button list-footer">
+                    <img class="button-icon" src=".\resources\icons\template.svg" />
+                </button>
+            </div>
+        </div>
+
+        <div class="list">
+            <div class="list-header">
+                <p class="list-header">Empty List</p>
+                <button class="button list-header">
+                    <img class="button-icon" src=".\resources\icons\grey-ellipsis.svg" />
+                </button>
+
+            </div> 
+
+            <div class="list-footer">
+                <button class="button list-footer-stretch">
+                    <img class="button-icon" src=".\resources\icons\grey-plus.svg" />
+                    <p class="list-footer">Add another card</p>
+                </button>
+                <button class="button list-footer">
+                    <img class="button-icon" src=".\resources\icons\template.svg" />
+                </button>
+            </div>
+        </div>
+
+        <button class="button secondary new-list">
+            <img class="button-icon" src=".\resources\icons\plus.svg" />
+            <p class="button-text">Add another list</p>
+        </button>
+
+    </div>
+
+    <div id="modal">
+        <div class="modal-header">
+            <div class="group left">
+                <img class="modal-title-icon" src=".\resources\icons\ticket.svg" />
+                <div>
+                    <p class="modal-title">[Employment Workshop]</p>
+                    <p class="modal-subheading">In list <span class="modal-subheading-link">Wish list</span></p>
+                </div>
+            </div>
+            <div class="group right">
+                <button class="button modal-close" onclick="document.getElementById('modal').style.display='none';">
+                    <img class="modal-close-icon" src=".\resources\icons\cancel.svg" />
+                </button>
+            </div>
+        </div>
+
+
+        <div class="modal-body">
+            <div class="modal-body-content">
+                <div class="modal-members">
+                    <p class="modal-subheading">MEMBERS</p>
+                    <div class="group">
+                        <button class="profile small">
+                            <p class="profile-text bold">MM</p>
+                        </button>
+                        <button class="profile small">
+                            <img class="button-icon" src=".\resources\icons\grey-plus.svg" />
+                        </button>
+                    </div>
+                </div>
+                <div class="modal-description-header">
+                    <img class="modal-title-icon" src=".\resources\icons\description.svg" />
+                    <p class="modal-subtitle">Description</p>
+                    <button class="button modal-description-action">
+                        <p class="button-text dark">Edit</p>
+                    </button>
+                </div>
+
+                <div class="modal-description-body">
+                    <div class="modal-description-text">
+                        <p>CVs, LinkedIn, Portfolios, Introduction techniques</p>
+                        <ul>
+                            <li>Video platform</li>
+                            <li>Ways to share files</li>
+                            <li>Advertising for the course</li>
+                            <li>What could we get out of the course</li>
+                            <li>How do we maximise the time with the participants while they're there?</li>
+                            <li>Who could also join to help? (Mel: Host? Kearns + Joey: Helping?)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="modal-activity">
+                    <div class="group left">
+                        <img class="modal-title-icon" src=".\resources\icons\list-text.svg" />
+                        <p class="modal-subtitle">Activity</p>
+                    </div>
+                    <div class="group right">
+                        <button class="button modal-description-action">
+                            <p class="button-text dark">Hide Details</p>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="modal-comments">
+                    <button class="profile">
+                        <p class="button-text bold">O</p>
+                    </button>
+                    <input placeholder="Write a comment..." class="modal-comment-box">
+                </div>
+
+                <div class="modal-activity-feed">
+                    <div class="modal-activity-message">
+                        <button class="profile small">
+                            <p class="profile-text bold">MM</p>
+                        </button>
+                        <div>
+                            <p class="modal-description-text"><strong>Melvyn Mathews</strong> Moved this card from
+                                Priority to To Do</p>
+                            <p class="modal-subheading">17 Nov 2020 at 14:25</p>
+                        </div>
+                    </div>
+                    <div class="modal-activity-message">
+                        <button class="profile small">
+                            <p class="profile-text bold">MM</p>
+                        </button>
+                        <div>
+                            <p class="modal-description-text"><strong>Melvyn Mathews</strong> added this card to
+                                Priority</p>
+                            <p class="modal-subheading">17 Nov 2020 at 14:25</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-sidebar">
+                <p class="modal-subheading">SUGGESTED</p>
+                <button class="button modal-sidebar-stretch">
+                    <img class="button-icon" src=".\resources\icons\user.svg" />
+                    <p class="button-text dark">Join</p>
+                </button>
+                <p class="modal-subheading sidebar-spacer">ADD TO CARD</p>
+                <button class="button modal-sidebar-stretch">
+                    <img class="button-icon" src=".\resources\icons\user.svg" />
+                    <p class="button-text dark">Members</p>
+                </button>
+                <button class="button modal-sidebar-stretch">
+                    <img class="button-icon" src=".\resources\icons\label.png" />
+                    <p class="button-text dark">Labels</p>
+                </button>
+                <button class="button modal-sidebar-stretch">
+                    <img class="button-icon" src=".\resources\icons\checklist.png" />
+                    <p class="button-text dark">Checklist</p>
+                </button>
+                <button class="button modal-sidebar-stretch">
+                    <img class="button-icon" src=".\resources\icons\clock.png" />
+                    <p class="button-text dark">Due Date</p>
+                </button>
+                <button class="button modal-sidebar-stretch">
+                    <img class="button-icon" src=".\resources\icons\paper-clip.png" />
+                    <p class="button-text dark">Attatchment</p>
+                </button>
+                <button class="button modal-sidebar-stretch">
+                    <img class="button-icon" src=".\resources\icons\ticket.svg" />
+                    <p class="button-text dark">Cover</p>
+                </button>
+                <p class="modal-subheading sidebar-spacer">ADD POWER UPS</p>
+                <button class="button modal-sidebar-stretch unhighlighted">
+                    <img class="button-icon" src=".\resources\icons\grey-plus.svg" />
+                    <p class="button-text dark">Add Power-Ups</p>
+                </button>
+                <p class="modal-subheading sidebar-spacer">BUTLER</p>
+                <button class="button modal-sidebar-stretch unhighlighted">
+                    <img class="button-icon" src=".\resources\icons\grey-plus.svg" />
+                    <p class="button-text dark">Add Card Button</p>
+                </button>
+                <p class="modal-subheading sidebar-spacer">ACTIONS</p>
+                <button class="button modal-sidebar-stretch">
+                    <img class="button-icon" src=".\resources\icons\right-arrow.svg" />
+                    <p class="button-text dark">Move</p>
+                </button>
+                <button class="button modal-sidebar-stretch">
+                    <img class="button-icon" src=".\resources\icons\copy.svg" />
+                    <p class="button-text dark">Copy</p>
+                </button>
+                <button class="button modal-sidebar-stretch">
+                    <img class="button-icon" src=".\resources\icons\template.svg" />
+                    <p class="button-text dark">Make Template</p>
+                </button>
+                <button class="button modal-sidebar-stretch">
+                    <img class="button-icon" src=".\resources\icons\eye.svg" />
+                    <p class="button-text dark">Watch</p>
+                </button>
+                <button class="button modal-sidebar-stretch">
+                    <img class="button-icon" src=".\resources\icons\archive.svg" />
+                    <p class="button-text dark">Archive</p>
+                </button>
+                <button class="button modal-sidebar-stretch">
+                    <p class="button-text dark">Share</p>
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
